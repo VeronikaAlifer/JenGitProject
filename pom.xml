@@ -34,7 +34,17 @@
         <artifactId>extentreports</artifactId>
         <version>5.0.9</version>
     </dependency>
-
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.24</version> <!-- или последняя версия -->
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>1.7.32</version> <!-- Используйте актуальную версию -->
+    </dependency>
 </dependencies>
 
 
